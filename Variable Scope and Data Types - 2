@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int glo =6;
+void sum(){
+    int a;
+    cout<<glo;
+}
+
+int main() {
+    int glo = 9;
+    glo =78;
+    int a = 6;
+    int b = 7;
+    float pi = 3.14;
+    char c = 'd';
+    bool is_ture = false;
+    sum();
+    cout<<glo<< is_ture;
+    // cout<<"This is tutorial.\nThe value of a is "<<a<<"\nThe value of b is "<<b<<"\nThe value of pi is "<<pi<<"\nThe value of c is "<<c;
+    return 0;
+}
